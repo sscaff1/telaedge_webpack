@@ -41,6 +41,8 @@ ul.social-buttons li a .fa {color:#fff;}
   background-position: 0% 40%;
   background-attachment: fixed;
   background-color: #000;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .white {

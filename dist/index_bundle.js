@@ -14996,7 +14996,7 @@
 	 * of patent rights can be found in the PATENTS file in the same directory.
 	 *
 	 * @typechecks
-	 *
+	 * 
 	 */
 
 	/*eslint-disable no-self-compare */
@@ -20099,7 +20099,7 @@
 	        _react2.default.createElement(
 	          "div",
 	          { className: "col-md-4 vcenter" },
-	          "Created with Meteor & React"
+	          "Created with React & Webpack"
 	        ),
 	        _react2.default.createElement(
 	          "div",
@@ -20301,9 +20301,9 @@
 	  return _react2.default.createElement(
 	    "div",
 	    { className: "row text-center pic-row" },
-	    _react2.default.createElement(Pic, { source: "./img/IMG_0342-1.jpg" }),
-	    _react2.default.createElement(Pic, { source: "./img/pic2.jpg" }),
-	    _react2.default.createElement(Pic, { source: "./img/pic3.jpg" })
+	    _react2.default.createElement(Pic, { source: "/img/IMG_0342-1.jpg" }),
+	    _react2.default.createElement(Pic, { source: "/img/pic2.jpg" }),
+	    _react2.default.createElement(Pic, { source: "/img/pic3.jpg" })
 	  );
 	};
 
@@ -20389,8 +20389,8 @@
 	    _react2.default.createElement(
 	      'div',
 	      { className: 'row' },
-	      _react2.default.createElement(Service, { thumb: './img/responsive.png', title: 'Website Design', text: 'Whether you need to update your website or create a new one from scratch, we can help you get up and running with an engaging, responsive, accessible website that is individualized for you. We can even create a wedding or special event website. Our websites are designed on free open-source platforms, which gives you the option of managing your own website. If you would like to be more involved in the process, we also provide training and assistance to help you manage your own content. We can code compliant and efficient html and css and can ensure that your site is always up to date.' }),
-	      _react2.default.createElement(Service, { thumb: './img/apps.png', title: 'Web and Mobile Applications', text: 'We design mobile-friendly web applications that are customized to help your business run more efficiently. These web applications are also built on free open-source platforms. The apps can help solve a wide range of issues, from Client Relationship Management (CRM) to customized calculators, and can help increase revenue and productivity.' })
+	      _react2.default.createElement(Service, { thumb: '/img/responsive.png', title: 'Website Design', text: 'Whether you need to update your website or create a new one from scratch, we can help you get up and running with an engaging, responsive, accessible website that is individualized for you. We can even create a wedding or special event website. Our websites are designed on free open-source platforms, which gives you the option of managing your own website. If you would like to be more involved in the process, we also provide training and assistance to help you manage your own content. We can code compliant and efficient html and css and can ensure that your site is always up to date.' }),
+	      _react2.default.createElement(Service, { thumb: '/img/apps.png', title: 'Web and Mobile Applications', text: 'We design mobile-friendly web applications that are customized to help your business run more efficiently. These web applications are also built on free open-source platforms. The apps can help solve a wide range of issues, from Client Relationship Management (CRM) to customized calculators, and can help increase revenue and productivity.' })
 	    ),
 	    _react2.default.createElement(_tagline.TagLine, { classNames: 'container-fluid', text: 'Please contact us for a quote or for more information on our services' })
 	  );
@@ -20517,7 +20517,7 @@
 	        _react2.default.createElement(
 	          "a",
 	          { className: "navbar-brand", href: "#" },
-	          _react2.default.createElement("img", { src: "./img/telaedge-logo.png", height: "75" })
+	          _react2.default.createElement("img", { src: "/img/telaedge-logo.png", height: "75" })
 	        )
 	      ),
 	      _react2.default.createElement(
@@ -20574,14 +20574,14 @@
 	    _react2.default.createElement(
 	      'div',
 	      { className: 'mywork-container' },
-	      _react2.default.createElement(_components.Samples, { images: [{ name: 'pediSpace', source: './img/pedispacelogo.png', website: 'http://pedispace.com/', sourceCode: 'https://github.com/sscaff1/pedispace' }, { name: 'CenturyTradeShow.com', source: './img/centurytradeshow.png', website: 'http://www.centurytradeshow.com/', sourceCode: 'https://github.com/sscaff1/centurytradeshow' }, { name: 'Foodfully', source: './img/foodfully.png', website: 'http://foodful.ly/' }] }),
-	      _react2.default.createElement(_components.Samples, { images: [{ name: 'GainesIns.com', source: './img/gainesinlogo.png', website: 'http://www.gainesins.com/' }, { name: 'TedGaines.com', source: './img/tedgaineslogo.jpg', website: 'http://www.tedgaines.com/' }, { name: 'The Edge Tool', source: './img/theedgetool.png', website: 'http://theedgetool.com/', sourceCode: 'https://github.com/sscaff1/eng_tasks' }] })
+	      _react2.default.createElement(_components.Samples, { images: [{ name: 'pediSpace', source: '/img/pedispacelogo.png', website: 'http://pedispace.com/', sourceCode: 'https://github.com/sscaff1/pedispace' }, { name: 'CenturyTradeShow.com', source: '/img/centurytradeshow.png', website: 'http://www.centurytradeshow.com/', sourceCode: 'https://github.com/sscaff1/centurytradeshow' }, { name: 'Foodfully', source: '/img/foodfully.png', website: 'http://foodful.ly/' }] }),
+	      _react2.default.createElement(_components.Samples, { images: [{ name: 'GainesIns.com', source: '/img/gainesinlogo.png', website: 'http://www.gainesins.com/' }, { name: 'TedGaines.com', source: '/img/tedgaineslogo.jpg', website: 'http://www.tedgaines.com/' }, { name: 'The Edge Tool', source: '/img/theedgetool.png', website: 'http://theedgetool.com/', sourceCode: 'https://github.com/sscaff1/eng_tasks' }] })
 	    ),
 	    _react2.default.createElement(_components.TagLine, { classNames: 'container-fluid black', text: 'Technologies I use' }),
 	    _react2.default.createElement(
 	      'div',
 	      { className: 'mytech-container' },
-	      _react2.default.createElement(_components.Samples, { images: [{ name: 'React', source: './img/react.png', website: 'https://facebook.github.io/react/', sourceCode: 'https://github.com/facebook/react' }, { name: 'Modern Web', source: './img/JS.png' }, { name: 'Meteor', source: './img/meteor.png', website: 'https://www.meteor.com/', sourceCode: 'https://github.com/meteor/meteor/' }] })
+	      _react2.default.createElement(_components.Samples, { images: [{ name: 'React', source: '/img/react.png', website: 'https://facebook.github.io/react/', sourceCode: 'https://github.com/facebook/react' }, { name: 'Modern Web', source: '/img/JS.png' }, { name: 'Meteor', source: '/img/meteor.png', website: 'https://www.meteor.com/', sourceCode: 'https://github.com/meteor/meteor/' }] })
 	    ),
 	    _react2.default.createElement(_components.TagLine, { classNames: 'container-fluid black', text: 'Contact Me' }),
 	    _react2.default.createElement(
@@ -20631,7 +20631,7 @@
 
 
 	// module
-	exports.push([module.id, "/*Body Padding*/\n* {\n  font-family: 'Josefin Slab', Georgia, \"Times New Roman\", serif;\n  color: grey;\n}\nbody {\n  overflow-x: hidden;\n}\n\n/*Transparent Navbar*/\n.navbar {\n   background-color: transparent;\n   background: transparent;\n   border-color: transparent;\n}\n.navbar ul li a {\n  color:#0a0a0a;\n  font-size: 24px;\n}\n\n.slogan {\n  position: relative;\n  top:150px;\n  color:#fafafa;\n}\n\nfooter {\n  text-align: center;\n}\n.container-fluid, .container {\n  padding-top: 15px;\n  padding-bottom: 15px;\n}\n\nul.social-buttons li a {display:block;background-color:#222;height:40px;width:40px;border-radius:100%;font-size:20px;line-height:40px;color:#fff;outline:0;}\nul.social-buttons li a .fa {color:#fff;}\n\n.header-container {\n  background-image: url('./img/header-background.jpg');\n  padding-bottom: 250px;\n  background-position: 0% 40%;\n  background-attachment: fixed;\n  background-color: #000;\n}\n\n.white {\n  background-color: #fff;\n  padding: 25px 0;\n}\n\np.intro-text {\n  font-size: 20px;\n}\n\ndiv.row.pic-row {\n  background-color: #E7ECF0;\n  padding:15px;\n}\n\n.services-container {\n  background-color: #BAD1DA;\n  padding:25px;\n}\n\n.vcenter {\n  display: inline-block;\n  vertical-align: middle;\n  float: none;\n}\n\n.service-text {\n  font-size:18px;\n}\n\n.mywork-container {\n  background-color: #BAD1DA;\n  padding-top: 15px;\n  padding-bottom: 15px;\n}\n\n.mywork-container h3 {\n  color: #777;\n}\n.mytech-container {\n  background-color: #E7ECF0;\n  padding-top: 15px;\n  padding-bottom: 15px;\n}\n\n.sample-image img {\n  max-width: 100%;\n  max-height: 200px;\n  display: inline-block;\n  vertical-align: middle;\n}\n\n.sample-box .sample-image {\n  height: 200px;\n}\n\n.helper {\n  display: inline-block;\n  height: 100%;\n  vertical-align: middle;\n}\n\n.pic-container img {\n  max-width: 100%;\n  height: 300px;\n}\n.email-link {\n  text-align: center;\n  font-size: 24px;\n  margin-bottom: 15px;\n}\nul.social-buttons li a .fa {\n  padding-top: 10px;\n}\n", ""]);
+	exports.push([module.id, "/*Body Padding*/\n* {\n  font-family: 'Josefin Slab', Georgia, \"Times New Roman\", serif;\n  color: grey;\n}\nbody {\n  overflow-x: hidden;\n}\n\n/*Transparent Navbar*/\n.navbar {\n   background-color: transparent;\n   background: transparent;\n   border-color: transparent;\n}\n.navbar ul li a {\n  color:#0a0a0a;\n  font-size: 24px;\n}\n\n.slogan {\n  position: relative;\n  top:150px;\n  color:#fafafa;\n}\n\nfooter {\n  text-align: center;\n}\n.container-fluid, .container {\n  padding-top: 15px;\n  padding-bottom: 15px;\n}\n\nul.social-buttons li a {display:block;background-color:#222;height:40px;width:40px;border-radius:100%;font-size:20px;line-height:40px;color:#fff;outline:0;}\nul.social-buttons li a .fa {color:#fff;}\n\n.header-container {\n  background-image: url('/img/header-background.jpg');\n  padding-bottom: 250px;\n  background-position: 0% 40%;\n  background-attachment: fixed;\n  background-color: #000;\n  background-repeat: no-repeat;\n  background-size: cover;\n}\n\n.white {\n  background-color: #fff;\n  padding: 25px 0;\n}\n\np.intro-text {\n  font-size: 20px;\n}\n\ndiv.row.pic-row {\n  background-color: #E7ECF0;\n  padding:15px;\n}\n\n.services-container {\n  background-color: #BAD1DA;\n  padding:25px;\n}\n\n.vcenter {\n  display: inline-block;\n  vertical-align: middle;\n  float: none;\n}\n\n.service-text {\n  font-size:18px;\n}\n\n.mywork-container {\n  background-color: #BAD1DA;\n  padding-top: 15px;\n  padding-bottom: 15px;\n}\n\n.mywork-container h3 {\n  color: #777;\n}\n.mytech-container {\n  background-color: #E7ECF0;\n  padding-top: 15px;\n  padding-bottom: 15px;\n}\n\n.sample-image img {\n  max-width: 100%;\n  max-height: 200px;\n  display: inline-block;\n  vertical-align: middle;\n}\n\n.sample-box .sample-image {\n  height: 200px;\n}\n\n.helper {\n  display: inline-block;\n  height: 100%;\n  vertical-align: middle;\n}\n\n.pic-container img {\n  max-width: 100%;\n  height: 300px;\n}\n.email-link {\n  text-align: center;\n  font-size: 24px;\n  margin-bottom: 15px;\n}\nul.social-buttons li a .fa {\n  padding-top: 10px;\n}\n", ""]);
 
 	// exports
 

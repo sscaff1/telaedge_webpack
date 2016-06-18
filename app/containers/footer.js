@@ -5,7 +5,7 @@ export const Footer = () => (
     <div className="container">
       <div className="row">
         <div className="col-md-4 vcenter">
-          Created with Meteor & React
+          Created with React & Webpack
         </div>
         <div className="col-md-4 vcenter">
           <ul className="list-inline social-buttons">
